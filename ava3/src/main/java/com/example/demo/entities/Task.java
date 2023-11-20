@@ -1,12 +1,15 @@
 package com.example.demo.entities;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Task {
     private int id;
     private String description;
 
-    public Task() {
-        // serialização/desserialização JSON
-    }
 
     public Task(int id, String description) {
         this.id = id;
@@ -14,19 +17,19 @@ public class Task {
     }
 
     // Getters e setters
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+//
+//    public String getDescription() {
+//        return description;
+//    }
+//
+//    public void setDescription(String description) {
+//        this.description = description;
+//    }
 }
