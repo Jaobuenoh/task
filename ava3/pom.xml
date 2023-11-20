@@ -72,6 +72,9 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+
+
+					<mainClass>com.example.demo.ApirestApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
